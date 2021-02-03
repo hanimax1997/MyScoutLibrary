@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="ar" dir="rtl">
     
 
 <head>        
@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
 
         <!-- Title -->
-        <title>..:: LIBRARIA ::..</title>
+        <title>مرحلة الكشاف</title>
 
         <!-- Favicon -->
         <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
@@ -17,10 +17,12 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CLato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        
+
         <!-- Mobile Menu -->
         <link href="css/mmenu.css" rel="stylesheet" type="text/css" />
         <link href="css/mmenu.positioning.css" rel="stylesheet" type="text/css" />
+
+        <link rel="stylesheet" type="text/css" href="css/jquery.accordion.css">
 
         <!-- Stylesheet -->
         <link href="style.css" rel="stylesheet" type="text/css" />
@@ -36,7 +38,7 @@
 
     <body>
 
-       <!-- Start: Header Section -->
+        <!-- Start: Header Section -->
         <header id="header-v1" class="navbar-wrapper inner-navbar-wrapper">
             <div class="container">
                 <div class="row">
@@ -47,7 +49,7 @@
                                     <div class="navbar-brand">
                                         <h1>
                                             <a href="index.html">
-                                                <img src="images/myscoutlib.png" alt="LIBRARIA" />
+                                        <img src="images/myscoutlib.png" alt="LIBRARIA" />
                                             </a>
                                         </h1>
                                     </div>
@@ -55,11 +57,11 @@
                             </div>
                             <div class="col-md-9">
                                 <!-- Header Topbar -->
-                                <div class="header-topbar hidden-sm hidden-xs">
+                                <div dir="ltr" class="header-topbar hidden-sm hidden-xs">
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="topbar-info">
-                                                <a href="tel:+61-3-8376-6284"><i class="fa fa-phone"></i>+61-3-8376-6284</a>
+                                                <a href="tel:+213790470664"><i class="fa fa-phone"></i>+213790470664</a>
                                                 <span>/</span>
                                                 <a href="mailto:myscoutlibrary@mail.com"><i class="fa fa-envelope"></i>myscoutlibrary@mail.com</a>
                                             </div>
@@ -75,30 +77,30 @@
                                         <li class="dropdown">
                                             <a data-toggle="dropdown" class="dropdown-toggle disabled" href="books-media-list-view.html">الحركة الكشفية</a>
                                             <ul class="dropdown-menu">
-                                                <li><a href="books-media-list-view.html" align="center" style="font-size: 12.5px" >نبذة عن الحركة الكشفية</a></li>
-                                            <li><a href="books-media-gird-view-v1.html"  align="center" style="font-size: 12.5px">طريقة الإنضمام الى الكشافة</a></li>
-                                            <li><a href="books-media-gird-view-v2.html"  align="center" style="font-size: 12.5px">الكشافة من أجل أهداف التنمية المستدامة</a></li>
-                                            <li><a href="books-media-detail-v1.html"  align="center" style="font-size: 12.5px">دور الكشافة في خدمة و تنمية المجتمع</a></li>
-                                            <li><a href="books-media-detail-v1.html"  align="center" style="font-size: 12.5px">مقارنة العمل الكشفي بين الدول العربية</a></li>
-                                            <li><a href="books-media-detail-v2.html"  align="center" style="font-size: 12.5px">الزي الكشفي</a></li>
+                                                <li><a href="nabda.html" align="center" style="font-size: 12.5px" >نبذة عن الحركة الكشفية</a></li>
+                                            <li><a href="indimam.html"  align="center" style="font-size: 12.5px">طريقة الإنضمام الى الكشافة</a></li>
+                                            <li><a href="sdg.html"  align="center" style="font-size: 12.5px">الكشافة من أجل أهداف التنمية المستدامة</a></li>
+                                            <li><a href="cs.html"  align="center" style="font-size: 12.5px">دور الكشافة في خدمة و تنمية المجتمع</a></li>
+                                            <li><a href="mokarana.html"  align="center" style="font-size: 12.5px">مقارنة العمل الكشفي بين الدول العربية</a></li>
+                                            <li><a href="uniform.html"  align="center" style="font-size: 12.5px">الزي الكشفي</a></li>
                                             </ul>
                                         </li>
                                         <li class="dropdown">
                                             <a data-toggle="dropdown" class="dropdown-toggle disabled" href="news-events-list-view.html">المراحل الكشفية</a>
                                             <ul class="dropdown-menu">
-                                                        <li><a href="cubs.html">مرحلة الأشبال</a></li>
-                                                        <li><a href="scouts.html">مرحلة الكشاف</a></li>
-                                                        <li><a href="venture.html">ممرحلة الكشاف المتقدم</a></li>
-                                                        <li><a href="rovers.html">مرحلة الجوال</a></li>
-                                                    </ul>
+                                                <li><a href="cubs.html">مرحلة الكشاف</a></li>
+                                                <li><a href="scouts.html">مرحلة الكشاف</a></li>
+                                                <li><a href="venture.html">ممرحلة الكشاف</a></li>
+                                                <li><a href="rovers.html">مرحلة الجوال</a></li>
+                                            </ul>
                                            
                                         </li>
                                         <li class="dropdown">
-                                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="#">المكتبة</a>
+                                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="maktaba.html">المكتبة</a>
                                             
                                         </li>
                                         <li class="dropdown">
-                                            <a data-toggle="dropdown" class="dropdown-toggle disabled" href="blog.html">مسابقات و تحديات</a>
+                                        <a data-toggle="dropdown" class="dropdown-toggle disabled" href="quiz.html">مسابقات و تحديات</a>
                                             
                                         </li>
                                         <li><a href="services.html">تواصل معنا</a></li>
@@ -129,9 +131,9 @@
                                     </li>
                                     <li>
                                         <a href="news-events-list-view.html">News &amp; Events</a>
-                                        <ul>
+                                    <ul>
                                             <li><a href="news-events-list-view.html">News &amp; Events List View</a></li>
-                                            <li><a href="news-events-detail.html">News &amp; Events Detail</a></li>
+                                            <li><a href="https://scout-ps.net/4077_%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A-%D9%84%D9%82%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D8%B4%D8%A8%D8%A7%D9%84">News &amp; Events Detail</a></li>
                                         </ul>
                                     </li>
                                     <li>
@@ -162,32 +164,80 @@
         <!-- End: Header Section -->
 
         <!-- Start: Page Banner -->
-        <section class="page-banner services-banner">
+        <section class="page-banner news-listing-banner services-banner">
             <div class="container">
                 <div class="banner-header">
-                    <h2>المكتبة</h2>
+                    <h2>مرحلة الكشاف</h2>
                     <span class="underline center"></span>
                     <p class="lead"></p>
                 </div>
                 <div class="breadcrumb">
                     <ul>
-                        <li><a href="index-2.html">الرئيسية</a></li>
-                        <li>المكتبة</li>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li>مرحلة الكشاف</li>
                     </ul>
                 </div>
             </div>
         </section>
         <!-- End: Page Banner -->
 
- 
-        <section style="border-style: dashed;
-    border-width: 1px;
-    border-left-width: 90px;
-    border-right-width: 90px;
-    border-color: white;">
-                                                    
+        <!-- Start: Products Section -->
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main">
+                    <div class="main-news-list">
+                        <div class="container">
+                            <div><br><br></div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="news-list-detail">
+                                        <div class="news-list-box">
+                                            <div class="single-news-list">
+                                                <div class="social-content">
+                                                    <div class="social-share">
+                                                        
+                                                    </div>
+                                             
+                                                </div>
+                                                <figure>
+                                                    <img src="images/cubs_cover.jpg" alt="News &amp; Event">
+                                                </figure>
+                                                <div class="content-block">
+                                                    <div class="member-info">
+                                                        <div class="content_meta_category">
+                                                            <span class="arrow-right"></span>
+                                                            <a href="#." rel="category tag">المراحل الكشفية</a>
+                                                        </div>
+                                                        
+                                                        <h2>مرحلة الكشاف</h2>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px; line-height: 150%; font-family: Droid Arabic Kufi;">لكل مرحلة سنية من مراحل الكشفية اهداف تربوية هذه الاهداف التربويه جزءا من هدف الحركة الكشفية اي ان في تطبيقنا للاهداف التربوبة هو تنفيذ لهدف الحركة فهي التي تحدد لنا العمل في الميدان مع الفتيان وهذه الاهداف وضعها علماء علم النفس و التربية في الوطن العربي لكي تبلور اهم العنايات التي يجب ان يعيها و يدركها الفتى العربي في هذه المرحلة.&nbsp;</span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">- تحلينا مرحله الفتيان أو الكشاف على معنيين متكاملين وهما :-</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">1) التقيد بمدة زمنية محددة&nbsp;</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">2) اعداد الفتى لمرحله الكشاف المتقدم و تأهيله.</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">و بصفه عامه تهدف هذه المرحلة في الوسط الكشفي الى استكمال و تعزيز التربيه التي يتلقاها الفتى بوسطه الاسري من جهة و اعداده للمرحلة الكشفية الموالية عن طريق تنمية المهارات الحركية و التعبيرية و تنمية القيم الدينية و الوطنية.</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">- الاهداف التربوية لمرحلة الفتيان (الكشاف) :</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">1) اكتساب القيم الدينية&nbsp;</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">2)تنمية الولاء للوطن&nbsp;</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">3)اكتساب القيم الاخلاقية و الاجتماعية&nbsp;</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">4)التفكير بطرق صحيحة لحل المشكلات&nbsp;</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">5)اكتساب مفاهيم جديدة حول البيئة&nbsp;</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">6)اكتشاف و تنمية الميول و الهوايات الشخصية&nbsp;</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">7)تقويه العلاقات الثقافية والاجتماعية و السلوك القويم مع الجماعة&nbsp;</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">8)اكتساب المهارات القيادية في العمل الجماعي&nbsp;</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">9)تنمية القدرات و المهارات البدنية و الصحية&nbsp;</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">- وعد الكشاف:</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">أعد بشرفي ان ابذل جهدي في القيام بواجبي نحو الله ثم الوطن و ان اساعد الناس في جميع الظروف و ان اعمل بقانون الكشاف.</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px;"><span style="line-height: 150%; font-family: Droid Arabic Kufi;">- قانون الكشاف :</span></span></p>
+<p dir="RTL" style='margin-top:0cm;margin-right:0cm;margin-bottom:10.0pt;margin-left:0cm;text-align:right;line-height:150%;font-size:18px;font-family:"Droid Arabic Kufi";'><span style="font-size: 18px; line-height: 150%; font-family: Droid Arabic Kufi;">صادق/ مخلص/ نافع/ ودود/ مهذب/ رفيق للحيوان و محب للنبات/ مطيع/ باش/ مقتصد/ طاهر. </span></p>
+                                                    </div>
+                                                </div>
+                                                <div class="clearfix"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            
                                         <div class="related-event text-center">
-                                            <h2>مصادر خاصة بالأشبال</h2>
+                                            <h2>مصادر خاصة بالكشاف</h2>
                                             <span class="underline center"></span>
                                             <p class="lead"></p>
                                             <div class="owl-carousel-event">
@@ -199,7 +249,7 @@
                                                         <figcaption>
                                                             <header>
                                                                 
-                                                                <h4 align="center"><a href="https://essalamscout.com/download/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D8%A7%D8%B4%D8%A8%D8%A7%D9%84/"><br><br>كتاب الأشبال</a></h4>
+                                                                <h4 align="center"><a href="https://essalamscout.com/download/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D8%A7%D8%B4%D8%A8%D8%A7%D9%84/"><br><br>كتاب الكشاف</a></h4>
                                                             </header>
                                                             <p></p>
                                                         </figcaption>
@@ -211,7 +261,7 @@
                                                         <figcaption>
                                                             <header>
                                                                 
-                                                                <h4 align="center"><a href="https://www.scouts-dz.org/library/files/"><br><br>المنهاج الكشفي للأشبال</a></h4>
+                                                                <h4 align="center"><a href="https://www.scouts-dz.org/library/files/"><br><br>المنهاج الكشفي للكشاف</a></h4>
                                                             </header>
                                                             <p></p>
                                                         </figcaption>
@@ -223,52 +273,7 @@
                                                         <figcaption>
                                                             <header>
                                                                 
-                                                                <h4 align="center"><a href="https://scout-ps.net/4077_%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A-%D9%84%D9%82%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D8%B4%D8%A8%D8%A7%D9%84"><br><br>الدليل التربوي لقادة الأشبال</a></h4>
-                                                            </header>
-                                                            <p></p>
-                                                        </figcaption>
-                                                    </figure> 
-                            </div>
-                                            </div>
-
-                   <div class="related-event text-center">
-                                            <h2>مصادر خاصة بالجوالة</h2>
-                                            <span class="underline center"></span>
-                                            <p class="lead"></p>
-                                            <div class="owl-carousel-event">
-                                               
-                                               
-                                                <div class="single-related-event">
-                                                    <figure>
-                                                    <a href="https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D8%AE%D8%B7%D9%87-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%87-%D9%88%D9%85%D8%AC%D8%A7%D9%84%D8%A7%D8%AA%D9%87%D8%A7-%D9%81%D9%8A-%D8%A7%D8%AF%D8%A7%D8%B1%D9%87-%D8%A7%D9%84%D8%B9%D8%B4%D9%8A%D8%B1%D9%87-%D8%A7%D9%84%D9%83%D8%B4%D9%81%D9%8A%D9%87-%D9%85%D8%B1%D8%AD%D9%84%D9%87-%D8%A7%D9%84%D8%AC%D9%88%D8%A7%D9%84%D9%87-pdf"><img src="images/rover_book.png" alt="Related event"></a>
-                                                        <figcaption>
-                                                            <header>
-                                                                
-                                                                <h4 align="center"><a href="https://essalamscout.com/download/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A7%D9%84%D8%A7%D8%B4%D8%A8%D8%A7%D9%84/"><br><br>كتاب الجوالة</a></h4>
-                                                            </header>
-                                                            <p></p>
-                                                        </figcaption>
-                                                    </figure> 
-                                                </div>
-                                                <div class="single-related-event">
-                                                    <figure>
-                                                        <a href="https://www.scouts-dz.org/library/files/"><img src="images/ventures.png" alt="Related event"></a>
-                                                        <figcaption>
-                                                            <header>
-                                                                
-                                                                <h4 align="center"><a href="https://www.scouts-dz.org/library/files/"><br><br>المنهاج الكشفي للجوالة</a></h4>
-                                                            </header>
-                                                            <p></p>
-                                                        </figcaption>
-                                                    </figure> 
-                                                </div>
-                                                <div class="single-related-event">
-                                                    <figure>
-                                                        <a href="https://scout-ps.net/4077_%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A-%D9%84%D9%82%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D8%B4%D8%A8%D8%A7%D9%84"><img src="images/rovers2.png" alt="Related event"></a>
-                                                        <figcaption>
-                                                            <header>
-                                                                
-                                                                <h4 align="center"><a href="https://scout-ps.net/4077_%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A-%D9%84%D9%82%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D8%B4%D8%A8%D8%A7%D9%84"><br><br>الدليل التربوي لقادة الجوالة</a></h4>
+                                                                <h4 align="center"><a href="https://scout-ps.net/4077_%D8%A7%D9%84%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%88%D9%8A-%D9%84%D9%82%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A3%D8%B4%D8%A8%D8%A7%D9%84"><br><br>الدليل التربوي لقادة الكشاف</a></h4>
                                                             </header>
                                                             <p></p>
                                                         </figcaption>
@@ -276,12 +281,17 @@
                                                 </div>
                                             </div>
                                         </div>
-                                            
-                                         
-               
-        </section>
-         
-         <!-- Start: Footer -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <!-- End: Products Section -->
+        <br>
+        <!-- Start: Footer -->
         <footer class="site-footer">
             <!--
             <div class="container">
@@ -349,7 +359,7 @@
                                     </div>
                                     <div class="info">
                                         <i class="fa fa-envelope"></i>
-                                    <span><a href="mailto:support@libraria.com">support@libraria.com</a></span>
+                                    <span><a href="mailto:myscoutlibrary@mail.com">myscoutlibrary@mail.com</a></span>
                                     </div>
                                     <div class="info">
                                         <i class="fa fa-phone"></i>
@@ -415,14 +425,16 @@
             <div class="sub-footer">
                 <div class="container">
                     <div class="row">
-                        <div class="footer-text col-md-6">
+                        <div class="footer-text col-md-5"><br>
                             <p style="font-family:inherit; color:aliceblue;">My Scout Library - Copyright 2020 - All Rights Reserved</p>
+                        </div>
+                        <div class="footer-text col-md-6">
+                            <img width="200px" src="images/logo.png">
                         </div>
                     </div>
                 </div>
             </div>
         </footer>
-        <!-- End: Footer -->
         <!-- End: Footer -->
 
         <!-- jQuery Latest Version 1.x -->
