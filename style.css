@@ -1349,6 +1349,7 @@ h6,
 }
 p {
   margin: 0 0 10px;
+  font-size: 18px;
 }
 .lead {
   margin-bottom: 20px;
@@ -17595,6 +17596,7 @@ a:focus {
 }
 .blog-page .post-detail .entry-content p {
   margin-bottom: 26px;
+    font-size: 16px;
 }
 .blog-page .post-detail .btn-default {
   border: none;
